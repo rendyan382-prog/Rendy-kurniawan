@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Kalkulator Sederhana<A1>
+        
+        <div class="input-group">
+            <label for="angka1">Angka Pertama:</label>
+            <input type="number" id="angka1" placeholder="Masukkan angka pertama">
+        </div>
+        
+        <div class="input-group">
+            <label for="angka2">Angka Kedua:</label>
+            <input type="number" id="angka2" placeholder="Masukkan angka kedua">
+        </div>
+        
+        <div class="buttons">
+            <button onclick="hitung('+')">+</button>
+            <button onclick="hitung('-')">-</button>
+            <button onclick="hitung('*')">×</button>
+            <button onclick="hitung('/')">÷</button>
+        </div>
+        
+        <div class="result" id="hasil">Hasil: 0</div>
+        <div class="error-message" id="error-message"></div>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
