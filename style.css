@@ -24,6 +24,7 @@
         }
         
         .input-group {
+            font-size: 0.8rem;
             margin-bottom: 15px;
         }
         
@@ -79,5 +80,10 @@
             font-size: 14px;
             margin-top: 5px;
             height: 20px;
+        }
+
+        .title {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
         }
    
